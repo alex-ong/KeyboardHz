@@ -13,13 +13,10 @@ void loop() {
   } else if (flip == 1) {
     Keyboard.set_key1(KEY_B);
   } else if (flip == 2) {
-    Keyboard.set_key1(KEY_C);
-  } else if (flip == 3) {
-    Keyboard.set_key1(0);
+    Keyboard.set_key1(KEY_C);  
   } else {
-    delay(1000);
-
+    Keyboard.set_key1(0);
   }
   Keyboard.send_now();
-  flip = (flip + 1) % 5;
+  flip = (flip + 1) % 1000;
 }
