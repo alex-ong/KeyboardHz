@@ -1,0 +1,32 @@
+
+Mouse Rate Checker 1.1b
+(c) 1998, 1999 Oliver Tscherwitschke
+
+Description
+===========
+
+This little program measures and displays the sample rate of a mouse,
+i.e. how often the mouse sends information to your computer.
+It just measures the time between two "WM_MOUSEMOVE" messages
+and calculates the frequency.
+There are programs to increase the sample rate of PS/2 mice to
+make the cursor movement smoother.
+
+To check your mouse's sample rate, just move the mouse quickly over
+the Mouse Rate Checker window until the average rate stays constant.
+
+It's possible that the rate is a bit inaccurate, especially at
+high rates (>=100 Hz). Try to uncheck the "show current rate" checkbox,
+which should lower CPU usage and close all other applications.
+If it's still inaccurate, blame Windows, not my program. ;-)
+
+Tested on Windows 95 and Windows NT 4.0 but of course you
+use this program on your own risk.
+Mouse Rate Checker 1.1b is Freeware.
+
+Download newest version from http://www.tscherwitschke.de
+
+
+Oliver Tscherwitschke
+oliver@tscherwitschke.de
+
